@@ -6,6 +6,11 @@ import br.com.codethebasics.model.XmlFile;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
 
+/**
+ * Serviço de conversão de arquivos XML para objetos Customer
+ *
+ * @author codethebasics
+ */
 public class XmlToCustomerConverter implements Converter<XmlFile, Customer> {
 
     public XmlToCustomerConverter() {
